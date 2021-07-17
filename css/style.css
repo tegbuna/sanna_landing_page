@@ -5,7 +5,7 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/youngblackwomen.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/youngblackwomen.jpg");
 
   /* Set a specific height */
   height: 100vh;
@@ -40,22 +40,29 @@ h3{
     font-size: 1.5rem;
 }
 
-form {
+form, fieldset {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    display:inline;
+    display:block;
+    border-radius: 7pt;
+    box-shadow: 0px 15px 5px rgba(0,0,0,0.1)gray;
 }
 
 input {
     width: 300px;
     line-height: 1.6;
     margin: 1%;
+    border-radius: 7pt;
+    box-shadow: 0px 15px 5px rgba(0,0,0,0.1)gray;
 }
 
 button {
     width: 90px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
     color:black;
     background-color: white;
-    font-size: 16px;
+    border-radius: 5pt;
+    box-shadow: 0px 15px 5px rgba(0,0,0,0.1)gray;
 }
